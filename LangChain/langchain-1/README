@@ -18,4 +18,5 @@
 
 2. Many older methods in Langchain have been deprecated, such as `LLMChat`, which has been replaced by chain calling using '|'. This includes the `chain.__call__` method, which has been replaced by `invoke()`. For more details, please refer to the official Langchain documentation.
 
-3. The `main.py` file demonstrates the basic principles of Langchain, showing how the concept of chaining can complete entire workflows. `chat_history` shows how Langchain manages memory storage and how a template splits string information into human messages and AI messages. `session_id` records the index, but it's not used by default in this example.
+3. The `main.py` file demonstrates the basic principles of Langchain, showing how the concept of chaining can complete entire workflows. 
+   `chat_history` shows how Langchain manages memory storage and how a template splits string information into human messages and AI messages. `session_id` records the index, but it's not used by default in this example.
