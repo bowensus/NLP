@@ -1,6 +1,4 @@
-#######################################
-# ZN
-#######################################
+# 注意:
 
 1. 在配置文件.env中更换你的openai api密钥，openai api密钥不是免费，需要设定支付方式，需要添加一张国外银行卡，并充值最低5美元。
 
@@ -10,9 +8,7 @@
    chat_history为langchain如何进行记忆储存和管理，并如何模板将字符串信息转换分解为human message和AI message。session_id为记录索引，这里默认未使用。
 
 
-#######################################
-# EN
-#######################################
+# NOTE:
 
 1. In the `.env` configuration file, replace your OpenAI API key. The OpenAI API key is not free, and you need to set up a payment method by adding a foreign bank card and topping up a minimum of $5.
 
